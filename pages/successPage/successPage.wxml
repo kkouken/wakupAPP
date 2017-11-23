@@ -1,0 +1,14 @@
+<!--打卡成功页面-->
+<view class='container'>
+  <view class='sun'>
+    <image src='../../image/sun01.png'></image>
+  </view>
+  <view class='cloud'>
+    <image src='../../image/cloud.png'></image>
+  </view>
+  <view class='mes'>
+    <text>早安！</text>
+    <text>又是元气满满的一天哦!!</text>
+    <text>签到成功啦！</text>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--签到失败页面-->
+<view class='container'>
+  <view class='cloud'>
+    <image src='../../image/cloud.png'></image>
+  </view>
+  <view class='mes'>
+    <text>早安！</text>
+    <text>哎呀~签到失败了..</text>
+    <text>...再试试吧！</text>
+  </view>
+</view>

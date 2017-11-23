@@ -1,0 +1,75 @@
+<!--我的资料页面-->
+<view class='container'>
+  <view class='userinfo'>
+     <view class='userinfo-avatar'>
+      <image src='../../image/dog01.jpg'></image>
+     </view>
+     <view class='userinfo-nickname'>KKOUKEN</view>
+     <view class='userinfo-sex'>男</view>
+     <view class='userinfo-sign'>"随便写点什么，反正要撑一一一一一一一下位置"</view>
+  </view>
+  <!-- <view class='dividingLine'></view> -->
+  <view class='timeline'>
+    <view class='timeline-line'>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='dotlinebox' wx:if="{{showEarlierBtn}}">
+        <view class='clock'>
+          <image src='../../image/clock02.png'></image>
+        </view>
+        <view class='more' bindtap='bindShowEarlier'>更早的...</view>
+      </view>
+      <!--如果点击“更早的”按钮，继续渲染时间轴-->
+      <block wx:if="{{showEarlierTimeLine}}">
+      
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+      <view class='linebox'>
+        <view class='point'></view>
+        <view class='time'>2017.05.06</view>
+      </view>
+
+      </block>
+    </view>
+  </view>
+  <!--点击“更早的”按钮后，折叠按钮从右边往左进场-->
+  <block wx:if="{{showFoldBtn}}">
+    <view class='fold-btn' bindtap='bindFold'></view>
+  </block>
+</view>

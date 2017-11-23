@@ -1,0 +1,114 @@
+<!--个人资料页面-->
+<view class='container'>
+  <block>
+    <view class='top'>
+      <view class='top-total'>累计0天</view>
+      <view class='top-do'>今日未打卡</view>
+      <view class='top-add' bindtap='gotoCheckIn'>
+        <image src='../../image/camera.png'></image>
+      </view>
+    </view>
+  </block>
+  <block>
+    <view class='tab clearfix'>
+      <view class='tab-discover' bindtap='gotoDiscover'>
+        <image src='../../image/calender.png'></image>
+        <view>-最新打卡-</view>
+      </view>
+      <view class='tab-mine' bindtap='gotoprofile'>
+        <image src='../../image/clock.png'></image>
+        <view>-我的资料-</view>
+      </view>
+    </view>
+  </block>
+  <block>
+    <view class='content'>
+      <block>
+        <view class='content-children'>
+          <view class='img'>
+            <image src='../../image/cao02.jpg'></image>
+          </view>
+          <view bindtap='deleteCheckIn'>
+            <view class='delete'></view>
+            <view class='trash'>
+              <image src='../../image/trash01.png'></image>
+            </view>
+          </view>
+          <view class='time'>11:20</view>
+          <view class='words'>烦，又要放假了啊，早点起床跑步，打卡吧</view>
+          <view class='comment'>
+            <image src='../../image/comment01.png'></image>
+            <text>12</text>
+          </view>
+          <view class='good'>
+            <image src='../../image/good.png'></image>
+            <text>15</text>
+          </view>
+        </view>
+        <view class='content-children'>
+          <view class='img'>
+            <image src='../../image/cao02.jpg'></image>
+          </view>
+          <view bindtap='deleteCheckIn'>
+            <view class='delete'></view>
+            <view class='trash'>
+              <image src='../../image/trash01.png'></image>
+            </view>
+          </view>
+          <view class='time'>11:20</view>
+          <view class='words'>烦，又要放假了啊，早点起床跑步，打卡吧</view>
+          <view class='comment'>
+            <image src='../../image/comment01.png'></image>
+            <text>12</text>
+          </view>
+          <view class='good'>
+            <image src='../../image/good.png'></image>
+            <text>15</text>
+          </view>
+        </view>
+        <view class='content-children'>
+          <view class='img'>
+            <image src='../../image/cao02.jpg'></image>
+          </view>
+          <view bindtap='deleteCheckIn'>
+            <view class='delete'></view>
+            <view class='trash'>
+              <image src='../../image/trash01.png'></image>
+            </view>
+          </view>
+          <view class='time'>11:20</view>
+          <view class='words'>烦，又要放假了啊，早点起床跑步，打卡吧</view>
+          <view class='comment'>
+            <image src='../../image/comment01.png'></image>
+            <text>12</text>
+          </view>
+          <view class='good'>
+            <image src='../../image/good.png'></image>
+            <text>15</text>
+          </view>
+        </view>
+        <view class='content-children'>
+          <view class='img'>
+            <image src='../../image/cao02.jpg'></image>
+          </view>
+          <view bindtap='deleteCheckIn'>
+            <view class='delete'></view>
+            <view class='trash'>
+              <image src='../../image/trash01.png'></image>
+            </view>
+          </view>
+          <view class='time'>11:20</view>
+          <view class='words'>烦，又要放假了啊，早点起床跑步，打卡吧</view>
+          <view class='comment'>
+            <image src='../../image/comment01.png'></image>
+            <text>12</text>
+          </view>
+          <view class='good'>
+            <image src='../../image/good.png'></image>
+            <text>15</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </block>
+</view>

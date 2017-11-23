@@ -1,0 +1,15 @@
+<!--设置签名页面-->
+<view class='container'>
+  <view class='input-section'>
+    <view class='cloud'>
+      <image src='../../image/cloud.png'></image>
+    </view>
+    <view class='rainbow'>
+      <image src='../../image/rainbow.png'></image>
+    </view>
+    <form>
+      <input confirm-type='done' />
+      <button class='donebtn'></button>
+    </form>
+  </view>
+</view>

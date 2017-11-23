@@ -1,0 +1,163 @@
+<!--好友动态页面-->
+<view class='container'>
+  <block>
+    <view class='user-cover'>
+      <image src='../../image/huahai02.jpg'></image>
+    </view>
+    <view class='user-name'>{{userInfo.nickName}}</view>
+    <view class='user-avatar' bindtap='gotomyCheckIn'>
+      <image wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+  </block>
+  <block>
+    <view class='discover-box'>
+      <block>
+        <view class='friend-box'>
+          <block>
+            <view class='friend-left'>
+              <view class='friend-avatar'>
+                <image src='../../image/dog01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-right'>
+              <view class='friend-name'>大冷漠</view>
+              <view class='friend-content'>一张横图的时候。</view>
+              <view class='friend-other'>
+                <image data-imgsrc='../../image/flower01.jpg' src='../../image/flower01.jpg'  bindtap='bindShowGallery'></image>
+              </view>
+            </view>
+            <view class='friend-operation'>
+              <view class='comment'>
+                <image src='../../image/comment.png'></image>
+              </view>
+              <view class='comment-count'>5</view>
+              <view class='like'>
+                <image src='../../image/like.png'></image>
+              </view>
+              <view class='like-count'>12</view>
+            </view>
+          </block>
+        </view>
+      </block>
+      <block>
+        <view class='friend-box'>
+          <block>
+            <view class='friend-left'>
+              <view class='friend-avatar'>
+                <image src='../../image/dog01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-right'>
+              <view class='friend-name'>大冷漠</view>
+              <view class='friend-content'>一张横图的时候。</view>
+              <view class='friend-other'>
+                <image src='../../image/flower01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-operation'>
+              <view class='comment'>
+                <image src='../../image/comment.png'></image>
+              </view>
+              <view class='comment-count'>5</view>
+              <view class='like'>
+                <image src='../../image/like.png'></image>
+              </view>
+              <view class='like-count'>12</view>
+            </view>
+          </block>
+        </view>
+      </block>
+      <block>
+        <view class='friend-box'>
+          <block>
+            <view class='friend-left'>
+              <view class='friend-avatar'>
+                <image src='../../image/sky01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-right'>
+              <view class='friend-name'>金三</view>
+              <view class='friend-content'>没有图片的时候。</view>
+            </view>
+            <view class='friend-operation'>
+              <view class='comment'>
+                <image src='../../image/comment.png'></image>
+              </view>
+              <view class='comment-count'>5</view>
+              <view class='like'>
+                <image src='../../image/like.png'></image>
+              </view>
+              <view class='like-count'>12</view>
+            </view>
+          </block>
+        </view>
+      </block>
+      <block>
+        <view class='friend-box'>
+          <block>
+            <view class='friend-left'>
+              <view class='friend-avatar'>
+                <image src='../../image/sky02.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-right'>
+              <view class='friend-name'>香港记</view>
+              <view class='friend-content'>一张图以上的时候。</view>
+              <view class='friend-other'>
+                <image src='../../image/flower01.jpg'></image>
+                <image src='../../image/flower01.jpg'></image>
+                <image src='../../image/flower01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-operation'>
+              <view class='comment'>
+                <image src='../../image/comment.png'></image>
+              </view>
+              <view class='comment-count'>5</view>
+              <view class='like'>
+                <image src='../../image/like.png'></image>
+              </view>
+              <view class='like-count'>12</view>
+            </view>
+          </block>
+        </view>
+      </block>
+      <block>
+        <view class='friend-box'>
+          <block>
+            <view class='friend-left'>
+              <view class='friend-avatar'>
+                <image src='../../image/huoche01.jpg'></image>
+              </view>
+            </view>
+            <view class='friend-right'>
+              <view class='friend-name'>金三胖</view>
+              <view class='friend-content'>没有图片的时候。</view>
+            </view>
+            <view class='friend-operation'>
+              <view class='comment'>
+                <image src='../../image/comment.png'></image>
+              </view>
+              <view class='comment-count'>5</view>
+              <view class='like'>
+                <image src='../../image/like.png'></image>
+              </view>
+              <view class='like-count'>12</view>
+            </view>
+          </block>
+        </view>
+      </block>
+      <block>
+        <button class='wakeup-btn' bindtap='bindAddTap'>
+        </button>
+      </block>
+    </view>
+  </block>
+  <!--Gallery-->
+  <block wx:if="{{showGallery}}">
+    <view class='gallery' bindtap='bindHideGallery'>
+      <text class='gallery-img' style='background-image: url(../../image/flower01.jpg)'></text>
+    </view>
+  </block>
+  <!--Gallery-->
+</view>

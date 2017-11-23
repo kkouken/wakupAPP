@@ -1,0 +1,45 @@
+<!--打卡页面-->
+<view class='container'>
+  <form bindsubmit='formSubmit'>
+    <view class='mes-box'>
+      <textarea 
+      placeholder="这一刻的想法..." 
+      placeholder-class="mes-box-txt" 
+      maxlength="140"
+      name="words"></textarea>
+    </view>
+    <view class='imgs-box clearfix'>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <image mode="center" src="../../image/dog01.jpg"></image>
+      </view>
+      <view class='imgs-box-img'>
+        <view class="uploadbtn" bindtap='chooseImage'></view>
+      </view>
+    </view>
+    <button class="dakabtn" form-type='submit'></button>
+  </form>
+</view>

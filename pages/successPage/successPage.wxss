@@ -1,0 +1,83 @@
+page{
+  height: auto;
+  background-color: skyblue;
+}
+
+.container{
+  position: relative;
+}
+
+.sun image{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  animation:sunRotate 10s linear infinite;
+}
+
+@keyframes sunRotate
+{
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.cloud image{
+  width: 162px;
+  height: 127px;
+  position: absolute;
+  top: 40px;
+  right: 160px;
+  animation:cloudMove 2s ease-out 1;
+}
+
+@keyframes cloudMove
+{
+  from {right: 0;}
+  to {right: 160px;}
+}
+
+.mes text:first-child{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  color: #fff;
+  font-size: 1.2em;
+  animation: onemove 1s ease-out 1;
+}
+
+@keyframes onemove
+{
+  from {left: 0;}
+  to {left: 20px;}
+}
+
+.mes text:nth-child(2){
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  color: #fff;
+  font-size: 1.5em;
+  animation: twomove 1.4s ease-out 1;
+}
+
+@keyframes twomove
+{
+  from {left: 0;}
+  to {left: 40px;}
+}
+
+.mes text:nth-child(3){
+  position: absolute;
+  top: 430px;
+  left: 120px;
+  color: #fff;
+  font-size: 2em;
+  animation: threemove 1.8s ease-out 1;
+}
+
+@keyframes threemove
+{
+  from {left: 0;}
+  to {left: 120px;}
+}

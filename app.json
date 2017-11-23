@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/discover/discover",
+    "pages/userCard/userCard",
+    "pages/profile/profile",
+    "pages/myCheckIn/myCheckIn",
+    "pages/settingSign/settingSign",
+    "pages/successPage/successPage",
+    "pages/failPage/failPage",
+    "pages/checkIn/checkIn",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Wakup!",
+    "navigationBarTextStyle":"#fff"
+  }
+}

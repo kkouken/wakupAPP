@@ -1,0 +1,205 @@
+page{
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.top{
+  widows: 100%;
+  height: 200px;
+  background-color: #555555;
+  position: relative;
+}
+
+/* .top-avatar{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.top-avatar image{
+  width: 100%;
+  height: 100%;
+} */
+
+.top-total{
+  font-size: 1.6em;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+
+.top-do{
+  font-size: .7em;
+  color: #fff;
+  position: absolute;
+  top: 90px;
+  left: 12%;
+  right: 0;
+}
+
+.top-add{
+  text-align: center;
+  width: 88%;
+  padding: 6px 0;
+  background-color: #FD5D55;
+  color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.top-add image{
+  width: 20px;
+  height: 20px;
+}
+
+.tab{
+  margin-top: 20px;
+}
+
+.tab .tab-discover{
+  padding: 5px 0;
+  font-size: 14px;
+  width: 50%;
+  text-align: center;
+  float: left;
+  background: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.tab .tab-discover image{
+  width: 40px;
+  height: 40px;
+}
+
+.tab .tab-mine{
+  padding: 5px 0;
+  font-size: 14px;
+  width: 50%;
+  text-align: center;
+  float: left;
+  background: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.tab .tab-mine image{
+  width: 40px;
+  height: 40px;
+}
+
+.content{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.content-children{
+  margin: 0 4px;
+  background-color: #fff;
+  width: 48%;
+  height: 230px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content-children .img{
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.content-children .delete{
+  width: 0;
+  height: 0;
+  border-top: 60px solid rgba(0, 0, 0, 0.5);
+  border-left: 60px solid transparent;
+  position: absolute;
+  right: 0;
+}
+
+.content-children .trash{
+  width: 25px;
+  height: 31px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.content-children .trash image{
+  width: 100%;
+  height: 100%;
+}
+
+.content-children .time{
+  font-size: 2em;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-children .words{
+  font-size: 14px;
+  position: absolute;
+  left: 10px;
+  bottom: 28px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.content-children .comment{
+  position: absolute;
+  left: 4px;
+  bottom: 0;
+}
+
+.content-children .comment image{
+  width: 12px;
+  height: 12px;
+}
+
+.content-children .comment text{
+  position: absolute;
+  font-size: 12px;
+  left: 14px;
+  bottom: 4px;
+}
+
+.content-children .good{
+  position: absolute;
+  right: 18px;
+  bottom: 0;
+}
+
+.content-children .good image{
+  width: 12px;
+  height: 12px;
+}
+
+.content-children .good text{
+  font-size: 12px;
+  position: absolute;
+  left: 14px;
+  bottom: 4px;
+}
